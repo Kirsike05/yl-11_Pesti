@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial;
+}
+.header {
+  padding: 20px;
+  text-align: center;
+  background: #220056;
+  color: white;
+}
+img {
+  border: 1px solid;
+  width:48%;
+  height:auto;
+  box-shadow:10px 10px grey;
+}
+img:hover {
+  width:60%;
+}
+@media screen and (max-width: 1200px) {
+  img {border:none; width:48%; height:auto; box-shadow:none;}
+  img:hover{width:48%;}
+}
+div.video {}
+@media screen and (max-width: 1200px) {
+  div.video {display:none;}
+}
+.footer {
+  font-style:italic;
+  font-size:large;
+  font-family:"Comic Sans MS";
+  text-align:right;
+  color:white;
+  background-color:#220056;
+}
+a:link {
+  color:white;
+}
+a:visited {
+  color:#00a808;
+}
